@@ -17,7 +17,7 @@ void setup() {
   dht.begin();
   WiFi.begin(ssid, pass);
   while (WiFi.status() != WL_CONNECTED) delay(500);
-  client.setServer("mqtt-dashboard.com", 8884);
+  client.setServer("mqtt-dashboard.com", 1883);
   client.connect("lele");
 }
 
