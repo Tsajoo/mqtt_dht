@@ -29,7 +29,7 @@ void setup() {
   Serial.println("WiFi connected");
 
   // Setup MQTT Server
-  client.setServer("mqtt-dashboard.com", 8884);
+  client.setServer("mqtt-dashboard.com", 1883);
 }
 
 void reconnect() {
